@@ -1,0 +1,9 @@
+---
+applications:
+- name: sample-nodejs-mysql-app
+  memory: 64M
+  disk_quota: 128M
+  instances: 1
+  random-route: true
+  services:
+  - mysqldb
